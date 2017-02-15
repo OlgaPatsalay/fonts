@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@font-face {
+    font-family: "proximanova";
+    src: url('fonts/proximanova-regular-webfont.woff2') format('woff2'),
+    url('fonts/proximanova-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura PT';
+    src: url('fonts/FuturaPT-Heavy.woff2') format('woff2'),
+    url('fonts/FuturaPT-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+body {
+    font-family: Georgia, serif;
+    background-color: #464f54;
+}
+main {
+    padding: 200px 100px 30px 100px;
+    background-color: #ffffff;
+    margin: 150px 75px 0 75px;
+    -webkit-box-shadow: 0 0 30px 0 rgba(5, 5, 5, 1);
+       -moz-box-shadow: 0 0 30px 0 rgba(5, 5, 5, 1);
+            box-shadow: 0 0 30px 0 rgba(5, 5, 5, 1);
+}
+header p {
+    margin: 0;
+}
+h1 {
+    font-size: 78px;
+    margin: 0;
+    text-transform: uppercase;
+}
+article {
+    font-size: 27px;
+    text-align: justify;
+}
+header {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    color: #ffffff;
+    width: 73%;
+    overflow: hidden;
+    z-index: 1;
+    padding: 20px 0 20px 20px;
+}
+article p:first-child {
+    font-size: 30px;
+    color: #8f8f8f;
+    font-style: italic;
+    margin: -10px 0 30px;
+}
+main:before {
+    content: ' ';
+    float: left;
+    border-right: 3px solid #eaeaea;
+    position: absolute;
+    height: 100%;
+    top: 150px;
+    left: 130px;
+}
+input[type="checkbox"] {
+    display: none;
+}
+label {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+label img{
+    opacity: .5;
+}
+input:checked + img {
+    opacity: .9;
+}
+.for-main-div {
+    overflow: hidden;
+    position: relative;
+}
+.border-bottom-div {
+    border-bottom: 3px solid #303030;
+    margin: 0 0 0 40px;
+    padding: 55px 0 0 0;
+}
+.titname {
+    font-size: 48px;
+    text-transform: capitalize;
+}
+.cont-labe {
+    background-color: #181818;
+    -webkit-box-shadow: 0 0 30px 0 rgba(5, 5, 5, .5);
+       -moz-box-shadow: 0 0 30px 0 rgba(5, 5, 5, .5);
+            box-shadow: 0 0 30px 0 rgba(5, 5, 5, .5);
+}
+.tit {
+    font-size: 15px;
+    color: #767676;
+    text-transform: uppercase;
+}
+.cont-labe {
+    height: 187px;
+}
+.menu {
+    background-color: #f9bf2d;
+    width: 100%;
+    height: 76px;
+    margin: 0 0 0 64px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 10px;
+    -webkit-box-shadow: 0 0 30px 0 rgba(5, 5, 5, .5);
+       -moz-box-shadow: 0 0 30px 0 rgba(5, 5, 5, .5);
+            box-shadow: 0 0 30px 0 rgba(5, 5, 5, .5);
+}
+.proxima {
+    font-family: "proximanova", sans-serif;
+}
+.playfair {
+   font-family: "Playfair Display", serif;
+}
+.futura {
+    font-family: "Futura PT", sans-serif;
+}
+.author {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #b4b4b4;
+}
+.cursive{
+    font-style: italic;
+}
